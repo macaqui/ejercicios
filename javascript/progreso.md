@@ -25,7 +25,7 @@
 - Comparación `===` (adelanto): pregunta "¿es exactamente igual?", responde `true`/`false`
 
 ## Temas en progreso
-_(vacío)_
+- Próxima clase (Clase 3): condiciones `if/else`, operadores de comparación (`<`, `>`, `<=`, `>=`, `===`, `!==`) y algunos operadores lógicos
 
 ## Proyectos construidos
 | Proyecto | Enlace local | Repo GitHub |
