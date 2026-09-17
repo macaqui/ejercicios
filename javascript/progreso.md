@@ -36,7 +36,7 @@ _(vacío)_
 | Fecha | Tema | Nota (1–10) | Fallos | Puntos a repasar |
 |-------|------|-------------|--------|------------------|
 | 2026-09-15 | Clase 1: consola, variables `let`, tipos de datos, concatenación, coerción | **9.5** | Describió `=` como "igual a" en vez de "asignar/guardar"; tilde omitida en string ("cafe" vs "café") | Significado de `=` como asignación (repaso breve opcional) |
-| 2026-09-17 | Clase 2: operadores y matemáticas (`+ - * / % **`), precedencia, atajos (`+=`, `++`), adelanto de `===` | **9.5** | Q1: ejemplo del `%` con las casas mezcló división ("cuántas repartir") con sobrante; feedback estilo: nombres de variables claros (`fahrenheit` no `celsius`) y una instrucción por línea | `%` como sobrante con ejemplo propio (repaso breve opcional al inicio de Clase 3) |
+| 2026-09-17 | Clase 2: operadores y matemáticas (`+ - * / % **`), precedencia, atajos (`+=`, `++`), adelanto de `===` | **10** | Q1: primer ejemplo del `%` inconsistente (dijo "10 casas" para un `15 % 2`) — **el alumno lo corrigió solo** al reenviar ("15 casas") → nota completa; feedback estilo: nombres de variables claros (`fahrenheit` no `celsius`) y una instrucción por línea | Ninguno crítico. Opcional: pulir ejemplo propio del `%` y estilo (una instrucción por línea) |
 
 ## Notas
 - Repo GitHub: `macaqui/ejercicios` (privado, https://github.com/macaqui/ejercicios). Todo sube aquí cada sesión.
