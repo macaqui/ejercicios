@@ -32,12 +32,8 @@
 - Rastrear bucles con tablita vuelta/valor (en práctica)
 
 ## Temas en progreso
-- **REPASO obligatorio (nota 7.8 en Clase 4, < 8):**
-  - Coerción: definición fina ("JavaScript convierte automáticamente un tipo en otro", no "mezcla") y dar el resultado del ejemplo
-  - `for`: la condición usa el contador (`i <= 7`, no `1 <= 7`); typo `leat` → `let`
-  - Rastrear bucles con acumulación (tablita vuelta/valor): `suma += 2` en 3 vueltas → 6; `6 == "6"` → `true` por coerción
-  - (Superados tras reenvío: `0 === ""` → `false`; bucle infinito al olvidar contador en `while`)
-- Próxima clase (Clase 5, tras repaso): arrays
+- **Único punto débil restante (ya NO repaso obligatorio, nota ≥ 8):** `for` con la condición sobre el contador (`i <= 7`, no `1 <= 7`) y `let` sin typo — repaso breve de refuerzo al inicio de Clase 5
+- Próxima clase (Clase 5): arrays
 
 ## Proyectos construidos
 | Proyecto | Enlace local | Repo GitHub |
@@ -50,7 +46,7 @@ _(vacío)_
 | 2026-09-15 | Clase 1: consola, variables `let`, tipos de datos, concatenación, coerción | **9.5** | Describió `=` como "igual a" en vez de "asignar/guardar"; tilde omitida en string ("cafe" vs "café") | Significado de `=` como asignación (repaso breve opcional) |
 | 2026-09-17 | Clase 2: operadores y matemáticas (`+ - * / % **`), precedencia, atajos (`+=`, `++`), adelanto de `===` | **10** | Q1: primer ejemplo del `%` inconsistente (dijo "10 casas" para un `15 % 2`) — **el alumno lo corrigió solo** al reenviar ("15 casas") → nota completa; feedback estilo: nombres de variables claros (`fahrenheit` no `celsius`) y una instrucción por línea | Ninguno crítico. Opcional: pulir ejemplo propio del `%` y estilo (una instrucción por línea) |
 | 2026-09-21 | Clase 3: comparadores, `if/else if/else`, operadores lógicos (`&&`, `||`, `!`) | **9.5** | P4 (teoría): no supo explicar la diferencia completa `==` vs `===` (solo dijo que `===` compara). Detalles menores sin quitar nota: tildes omitidas en strings ("Precaucion", "inválido"), `<= -0` redundante (equivale a `<= 0`), typo "Prestramo" | `==` vs `===` y coerción (se verá en Clase 4); escribir mensajes con tildes correctas en strings |
-| 2026-09-23 | Clase 4: coerción a fondo, `==` vs `===`, bucles `for` y `while` | **7.8** (reescritura: 6.9 → 7.8 tras corregir P5 y P7 en reenvío) | P1: definición de coerción imprecisa ("mezcla" en vez de "convierte automáticamente"), ejemplo sin resultado. P6: `leat` en vez de `let`; condición `1 <= 7` en vez de `i <= 7` (produce bucle infinito). P8: no rastreó el bucle `suma += 2` ×3 (dijo 2, correcto: 6) y dijo `6 == "6"` → `false` (correcto: `true` por coerción). Aciertos: `==` vs `===` explicado bien (hueco de Clase 3 cerrado), `"6"*3`→18, `"6"+3`→"63", while correcto, y en reenvío corrigió solo P5 (`0 === ""` → `false`) y P7 (bucle infinito) | Coerción (definición fina y ejemplos con resultado), `for` con condición sobre el contador, rastrear bucles con tablita, `==` con coerción. **REPASO obligatorio al inicio de Clase 5** |
+| 2026-09-23 | Clase 4: coerción a fondo, `==` vs `===`, bucles `for` y `while` | **8.75** (evolución: 6.9 → 7.8 1.er reenvío → 8.75 2.º reenvío) | Reenvío 2 corrigió: P1 (definición "convierte" en vez de "mezcla", ejemplo con resultado pendiente), P8 (`suma += 2` ×3 → 6, `6 == "6"` → `true`). Fallo restante: P6 — `leat` en vez de `let`; condición `1 <= 7` en vez de `i <= 7` (bucle infinito). Superados: `==` vs `===`, `"6"*3`→18, `"6"+3`→"63", `while`, `0 === ""`→`false` | Único punto: condición del `for` usa el contador y `let` bien escrito. Refuerzo opcional: dar resultado del ejemplo de coerción |
 
 ## Notas
 - Repo GitHub: `macaqui/ejercicios` (privado, https://github.com/macaqui/ejercicios). Todo sube aquí cada sesión.
