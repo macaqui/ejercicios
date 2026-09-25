@@ -11,6 +11,10 @@
 1
 
 ## Temas dominados
+- Arrays: qué son (lista de valores), crear con `[]`, leer con índice desde 0, `.length` cuenta ELEMENTOS (no el último índice), cambiar elemento (`arr[i] = valor`), `const` no da error al cambiar un elemento (no se reemplaza la lista)
+- Recorrer array con `for`: `for (let i = 0; i < arr.length; i++)` + `arr[i]`; mostrar numeración desde 1 con `(i + 1)`
+- Patrón acumulador: `let suma = 0` antes del for + `suma += arr[i]` dentro + usar el acumulador después del for (fuera de llaves)
+- Acceder a posición inexistente → `undefined`
 - `console.log()`: imprimir en consola, comillas como delimitadores (no se imprimen)
 - Variables con `let`: crear, asignar (`=`) y leer valores
 - Tipos de datos: string (texto), number (número), boolean (verdadero/falso)
@@ -33,7 +37,7 @@
 
 ## Temas en progreso
 - Punto débil anterior (`for` con condición sobre el contador, `let` sin typo) **superado en examen del 2026-09-23 → nota 10**
-- Próxima clase (Clase 5): arrays
+- Próxima clase (Clase 6): añadir/quitar elementos de array (`push`, `pop`, `shift`, `unshift`, `indexOf`, `includes`) y luego objetos
 
 ## Proyectos construidos
 | Proyecto | Enlace local | Repo GitHub |
@@ -47,6 +51,7 @@ _(vacío)_
 | 2026-09-17 | Clase 2: operadores y matemáticas (`+ - * / % **`), precedencia, atajos (`+=`, `++`), adelanto de `===` | **10** | Q1: primer ejemplo del `%` inconsistente (dijo "10 casas" para un `15 % 2`) — **el alumno lo corrigió solo** al reenviar ("15 casas") → nota completa; feedback estilo: nombres de variables claros (`fahrenheit` no `celsius`) y una instrucción por línea | Ninguno crítico. Opcional: pulir ejemplo propio del `%` y estilo (una instrucción por línea) |
 | 2026-09-21 | Clase 3: comparadores, `if/else if/else`, operadores lógicos (`&&`, `||`, `!`) | **9.5** | P4 (teoría): no supo explicar la diferencia completa `==` vs `===` (solo dijo que `===` compara). Detalles menores sin quitar nota: tildes omitidas en strings ("Precaucion", "inválido"), `<= -0` redundante (equivale a `<= 0`), typo "Prestramo" | `==` vs `===` y coerción (se verá en Clase 4); escribir mensajes con tildes correctas en strings |
 | 2026-09-23 | Clase 4: coerción a fondo, `==` vs `===`, bucles `for` y `while` | **10** (evolución de la sesión: 6.9 → 7.8 → 8.75 → **10** en examen final de la sesión) | Sin fallos en el examen final: coerción (definición + ejemplos `5+"5"`→`"55"`), `==` vs `===` (hueco de Clase 3 cerrado), `"6"*3`→18, `"6"+3`→"63", `0==""`→true / `0===""`→false, `for` 1..7 correcto, `while` 3..1 + bucle infinito, `suma+=2`×3→6 y `6=="6"`→true | Ninguno. Todo superado. Próxima: Clase 5 (arrays) |
+| 2026-09-24 | Clase 5: arrays (crear, leer por índice, `.length`, cambiar elemento, recorrer con `for`, acumulador) | **9.5** | P3: dijo `frutas.length` = 2 cuando la lista tiene 3 elementos (confundió cantidad de elementos con índice); P5: número correcto (12) pero explicó "suma el número anterior" (aclarar: suma cada elemento del array al acumulador) | `length` cuenta ELEMENTOS (el último índice es `length - 1`); explicar acumulador como "suma cada elemento" |
 
 ## Notas
 - Repo GitHub: `macaqui/ejercicios` (privado, https://github.com/macaqui/ejercicios). Todo sube aquí cada sesión.
