@@ -52,11 +52,14 @@
 - Identificadores JS: admiten caracteres no latinos (ej. `气压` es válido). Los errores vienen de palabras reservadas (`class`, `if`, `const`) o símbolos inválidos, no de "nombres raros"
 
 ## Temas en progreso
-- ⚠️ **PENDIENTE REPASO (nota 5.9 en examen del 2026-09-28):**
-  1. **Qué devuelve cada método de array**: `pop()`/`shift()` devuelven el VALOR quitado; `push()`/`unshift()` devuelven el TAMAÑO. El alumno mira la lista pero se salta el valor devuelto cuando el método va dentro de un `console.log`.
-  2. **Identificadores válidos en JS** (ver arriba).
-- Nota 5.9 no fue por falta de comprensión de la clase, sino por no haber capturado el valor de retorno. Los ejercicios 1, 2 y 3 los resolvió 10/10 con total autonomía.
-- Próxima clase (Clase 7): **funciones** (declaración, expresión, arrow functions `() => {}`), parámetros y `return` — con repaso de los 2 puntos de arriba antes de contenido nuevo.
+- ⚠️ **DECISIÓN DEL ALUMNO (2026-09-28): repetir TODOS los temas de Clase 6 en la próxima sesión, no solo los 2 puntos flojos.** Se respeta su criterio: la nota fue 5.9 pero los 3 ejercicios fueron 10/10, o sea entendió sin consolidar. Sin funciones nuevas hasta que arrays y objetos estén firmes.
+- **Plan Clase 7 (revisión+consolidación, ~60 min):**
+  - Bloque 1 (~10 min) — repaso de los 2 puntos flojos: valor de retorno de métodos de array; identificadores válidos.
+  - Bloque 2 (~15 min) — arrays: `push`/`pop`/`shift`/`unshift`/`indexOf`/`includes`. Ejercicios nuevos con todo mezclado.
+  - Bloque 3 (~15 min) — objetos: crear, leer, escribir, anidados, `for...in`. Ejercicios nuevos.
+  - Bloque 4 (~10 min) — mixto: array de objetos (patrón acumulador + patrón máximo, este último pendiente de la P7).
+  - Minuto 50 — examen de repaso. Si ≥ 8, la Clase 8 empieza con **funciones**. Si < 8, se repite el bloque fallado.
+  - **Las funciones quedan para la Clase 8.** El alumno ya pidió ver arrow functions; quedan anotadas.
 
 ## Proyectos construidos
 | Proyecto | Enlace local | Repo GitHub |
@@ -73,7 +76,7 @@
 | 2026-09-21 | Clase 3: comparadores, `if/else if/else`, operadores lógicos (`&&`, `||`, `!`) | **9.5** | P4 (teoría): no supo explicar la diferencia completa `==` vs `===` (solo dijo que `===` compara). Detalles menores sin quitar nota: tildes omitidas en strings ("Precaucion", "inválido"), `<= -0` redundante (equivale a `<= 0`), typo "Prestramo" | `==` vs `===` y coerción (se verá en Clase 4); escribir mensajes con tildes correctas en strings |
 | 2026-09-23 | Clase 4: coerción a fondo, `==` vs `===`, bucles `for` y `while` | **10** (evolución de la sesión: 6.9 → 7.8 → 8.75 → **10** en examen final de la sesión) | Sin fallos en el examen final: coerción (definición + ejemplos `5+"5"`→`"55"`), `==` vs `===` (hueco de Clase 3 cerrado), `"6"*3`→18, `"6"+3`→"63", `0==""`→true / `0===""`→false, `for` 1..7 correcto, `while` 3..1 + bucle infinito, `suma+=2`×3→6 y `6=="6"`→true | Ninguno. Todo superado. Próxima: Clase 5 (arrays) |
 | 2026-09-24 | Clase 5: arrays (crear, leer por índice, `.length`, cambiar elemento, recorrer con `for`, acumulador) | **10** | Sin fallos: array = "listas de Python" con `[]`, índice empieza en 0, `frutas[1]`→pera / `length`→3 / `frutas[5]`→undefined (todo correcto), P4 código y salida exactas, P5 resultado 12 correcto. Solo apunte de estilo: verbalizó el acumulador como "suma el número anterior" → aclarado: suma CADA elemento del array al acumulador (0→2→6→12) | Ninguno. Opcional: describir el patrón acumulador como "sumar cada elemento" en voz alta al explicar código |
-| 2026-09-28 | Clase 6: `push`/`pop`/`shift`/`unshift`/`indexOf`/`includes` + objetos (crear, leer, escribir, anidados) y `for...in` | **5.9** | **P1/P2**: no captó que `pop()` devuelve el valor quitado y `unshift()` devuelve el tamaño (miró la lista, no el retorno) — mismo error conceptual en las dos. **P6**: dijo que `气压` da error por "falta de espacio"; no da error, es un identificador válido. **P7** (patrón máximo) sin hacer — el alumno avisó "cerebro frito" | **1) valor de retorno de los métodos de array** 2) identificadores válidos en JS. Se pospuso el patrón máximo (max) para Clase 7 |
+| 2026-09-28 | Clase 6: `push`/`pop`/`shift`/`unshift`/`indexOf`/`includes` + objetos (crear, leer, escribir, anidados) y `for...in` | **5.9** | **P1/P2**: no captó que `pop()` devuelve el valor quitado y `unshift()` devuelve el tamaño (miró la lista, no el retorno) — mismo error conceptual en las dos. **P6**: dijo que `气压` da error por "falta de espacio"; no da error, es un identificador válido. **P7** (patrón máximo) sin hacer — el alumno avisó "cerebro frito" | **1) valor de retorno de los métodos de array** 2) identificadores válidos en JS. Se pospuso el patrón máximo (max) para Clase 7. **ADEMÁS el alumno pidió repetir TODA la Clase 6 (no solo estos 2 puntos). Funciones/arrow functions quedan aplazadas a Clase 8.** |
 
 ## Notas
 - Repo GitHub: `macaqui/ejercicios` (privado, https://github.com/macaqui/ejercicios). Todo sube aquí cada sesión.
